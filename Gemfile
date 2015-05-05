@@ -34,6 +34,16 @@ group :doc do
   gem 'sdoc', require: false
 end
 
+group :development do
+  #gem 'certified', '~> 1.0.0' #install open on windows to fix OPENSSL error
+  gem 'letter_opener'
+  gem 'quiet_assets'
+  gem "better_errors"
+  gem "binding_of_caller"
+  gem 'meta_request'
+
+end
+
 # Use ActiveModel has_secure_password
 # gem 'bcrypt-ruby', '~> 3.0.0'
 
