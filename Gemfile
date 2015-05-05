@@ -44,6 +44,20 @@ group :development do
 
 end
 
+
+group :development, :test do
+
+
+  gem 'guard'
+  gem 'guard-livereload', require: false
+  gem 'rspec-rails', '~> 3.0'
+  # gem 'guard-spork'
+  # gem 'spork', '~> 1.0rc'
+
+  # gem 'guard-rspec', require: false
+  # gem 'guard-livereload', require: false
+
+end
 # Use ActiveModel has_secure_password
 # gem 'bcrypt-ruby', '~> 3.0.0'
 
